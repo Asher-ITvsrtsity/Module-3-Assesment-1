@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Montserrat, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/background-01-port.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*============================== Home Page ==============================*/
+
+#home-logo-img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 10px 10px 25px 10px;
+}
+
+/*----------------- Home Page Menu -----------------*/
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 2rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*============================== Meals Page ==============================*/
+
+/*----------------- Meals Page Menu -----------------*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid #1a1a1a;
+    border-radius: 2rem;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: 800;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item p{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 15px;
+    color: #353535;
+    padding-left: 10px;
+    margin-top: -7px;
+}
+
+.meals-list-item i{
+    float: right;
+}
